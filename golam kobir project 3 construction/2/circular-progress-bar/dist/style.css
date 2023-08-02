@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding:0;
+  margin:0;
+}
+
+
+
+
+/* business section */
+
+.title {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 65px;
+}
+.title h2{
+ font-size: 33px;
+ line-height: 35px;
+ color:#fd4475;
+ font-family: 'Roboto', sans-serif;
+font-weight: 600;
+}
+.title p{
+  font-size: 17px;
+  line-height: 23px;
+  color:#000;
+  font-family: 'Roboto', sans-serif;
+  padding-top:20px;
+ }
+
+.business-section {
+  background-color: #fd44750d;
+  padding: 150px 0;
+}
+
+.business {
+  text-align: center;
+  box-shadow: 0 0 3px #c5c3c3;
+  padding: 20px 0;
+  
+  margin-bottom: 30px;
+
+}
+
+.busi-icon a{
+  color:#fd4475b5;
+  font-size: 30px;
+}
+
+.business-desc h5{
+  font-size:19px;
+  font-weight: 300;
+  color:#777;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+.business-desc p{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:23px;
+  font-weight: 400;
+  color:#333;
+}
+.business-desc h2{
+ font-family: 'Roboto', sans-serif;
+ font-size:42px;
+ line-height:47px;
+ font-weight: 700;
+ color:#fd4475b5;
+
+}
+
+.text-\[\#fd4475b5\] {
+  color: #fd4475b5;
+}
+.mb-2 {
+  margin-bottom: .5rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.radial-progress {
+  display: inline-grid;
+  height: var(--size);
+  place-content: center;
+
+}
+
+@media (max-width: 767px) {
+  .business-section {
+    padding: 80px 0;
+}
+.title h2{
+  font-size: 24px;
+  line-height: 30px;
+ }
+}
+ 
+  .card-1 {
+    width: 83px;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.section-title.text-center {
+  padding-bottom: 50px;
+}
+.section-padding{
+  padding:100px 0;
+}
+.section-title h3 {
+font-size: 25px;
+line-height: 30px;
+
+}
+
+.section-title p {
+  font-size: 18px;
+  line-height: 23px;
+
+} 
+
+
+canvas {
+  width: 48px !important;
+  height: 50px !important;
+}
+
+
+.colmd{
+  width: 200px;height:auto;
+  margin: auto;
+}
+
+
+.circle {
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+}
+.circle strong {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 17px;
+  font-size: 10px;
+}
